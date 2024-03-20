@@ -3,7 +3,7 @@ let saveEl = document.getElementById("save-el")
 let count = 0
 function increment(){
   count = count + 1
-  countEL.innerText = count
+  countEl.innerText = count
 }
 function save(){
   let entry = count + " - "

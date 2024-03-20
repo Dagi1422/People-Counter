@@ -9,7 +9,7 @@ body {
 .container {
     background: grey;
     max-width: 80%;
-    margin: auto;
+    margin: center;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -37,7 +37,7 @@ button {
 }
 
 #increment-btn {
-    background: darkgreen;
+    background: darkred;
 }
 
 #save-btn {

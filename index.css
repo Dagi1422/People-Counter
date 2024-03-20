@@ -9,7 +9,7 @@ body {
 .container {
     background: rgba(255, 255, 255, 0.2);
     max-width: 80%;
-    position: center;
+    align-items: center;
     margin: auto;
     border: 1px solid black;
     border-radius: 10px;

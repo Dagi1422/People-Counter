@@ -1,12 +1,16 @@
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
+let sumEl = document.getElementById("sum-el")
+
 let count = 0
+let sum = 0
 function increment(){
   count = count + 1
   countEl.textContent = count
 }
 function save(){
   if (count != 0) {
+    sum += count
     let entry = count + " - "
     saveEl.textContent += entry //we are using textContent because innerText ignores the spaces with the hyphen
     countEl.textContent = 0 //so the number displayed is set back to 0
@@ -14,3 +18,14 @@ function save(){
   }
 
 }
+function add(){
+  if (sum != 0) {
+    sumEl.textContent = `sum: ${sum}`
+        //sum = 0
+  }
+}
+function clr() {
+  sumEl.textContent = "Sum: ";
+  saveEl.textContent = "Previous Entries: ";
+}
+

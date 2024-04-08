@@ -21,11 +21,12 @@ function save(){
 function add(){
   if (sum != 0) {
     sumEl.textContent = `sum: ${sum}`
-        //sum = 0
+        
   }
 }
 function clr() {
   sumEl.textContent = "Sum: ";
   saveEl.textContent = "Previous Entries: ";
+  sum = 0;
 }
 

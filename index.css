@@ -1,12 +1,38 @@
 body {
-    /* background-image: url("hogwarts.jpg"); */
-    background-size: cover;
-    height: 100vh;
+    /* background-image: url("carz.png") ;  */
+    /* background-size: cover; */
+    /* height: 100vh; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
     display: flex;
     align-items: center;
+    background-repeat: repeat;
+    background-color: rgba(226, 226, 226, 0.699);
+}
+.vehicle{
+    width: 15vmax;
+    position: absolute;
+    z-index: -1;
+}
+.vehicle:hover{
+
+}
+.train{
+    top: 20%;
+    left: 10%;
+    
+}
+.bus{
+   top: 2%;
+   right:1%;
+}
+.taxi{
+    bottom: 3%;
+}
+.ship{
+    bottom: 10%;
+    right: 10%;
 }
 .container {
     background: rgba(255, 255, 255, 1);
@@ -46,7 +72,7 @@ button {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -54,15 +80,24 @@ button {
 }
 
 #increment-btn {
-    background: rgb(129, 121, 1);
+    /* background: rgb(129, 121, 1); */
+    background-image: url("water.jpeg");
+    background-size: cover;
 }
 
 #save-btn {
-    background: darkgreen;
+    /* background: darkgreen; */
+    background-image: url("fire.png");
+    background-size: cover;
+    background-clip:inherit;
 }
 #sum-btn {
-    background: rgb(8, 11, 185);
+    /* background: rgb(8, 11, 185); */
+    background-image: url("earth.jpg");
+    background-size: cover;
 }
 #clear-btn {
-    background: darkred;
+    /* background: darkred; */
+    background-image: url("wind.png");
+    background-size: cover;
 }
